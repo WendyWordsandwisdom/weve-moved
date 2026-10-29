@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>We've moved</title>
+<meta name="description" content="We've packed up and moved. Here's how to reach us.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
+<style>
+  :root {
+    --bg: #fbf7f0;
+    --ink: #2b2a28;
+    --muted: #6d6a64;
+    --accent: #d4553a;
+    --card: #ffffff;
+    --line: #e8e1d5;
+    --van: #3d7ea6;
+    --box: #c99a5b;
+    --box-dark: #a97c42;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b19;
+      --ink: #f1ede6;
+      --muted: #a9a49b;
+      --accent: #ef7b5f;
+      --card: #262421;
+      --line: #3a3732;
+      --van: #5b9cc4;
+      --box: #b8894c;
+      --box-dark: #8f6a38;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--ink);
+    font: 18px/1.55 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+  main {
+    width: 100%;
+    max-width: 560px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 36px 32px 32px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  }
+  svg.cartoon { width: 100%; max-width: 380px; height: auto; display: block; margin: 0 auto 8px; }
+  .domain {
+    font: 600 13px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 0 0 14px;
+    color: var(--accent);
+  }
+  p { margin: 0 0 14px; }
+  .contact {
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: var(--muted);
+  }
+  .contact a {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent);
+    word-break: break-all;
+  }
+  .contact a:hover { color: var(--accent); }
+  .wheel { transform-box: fill-box; transform-origin: center; animation: spin 1.6s linear infinite; }
+  .van { animation: bob 1.6s ease-in-out infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes bob { 50% { transform: translateY(-2px); } }
+  @media (prefers-reduced-motion: reduce) { .wheel, .van { animation: none; } }
+  @media (max-width: 420px) { main { padding: 28px 20px 24px; } h1 { font-size: 32px; } }
+</style>
+</head>
+<body>
+<main>
+  <!-- Original illustration: a little removal van, loaded and on its way -->
+  <svg class="cartoon" viewBox="0 0 380 200" role="img" aria-label="A cartoon removal van loaded with boxes, driving off">
+    <!-- road and speed lines -->
+    <line x1="10" y1="172" x2="370" y2="172" stroke="var(--line)" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="var(--muted)" stroke-width="3" stroke-linecap="round" opacity=".55">
+      <line x1="18" y1="112" x2="52" y2="112"/>
+      <line x1="8" y1="128" x2="46" y2="128"/>
+      <line x1="22" y1="144" x2="50" y2="144"/>
+    </g>
+    <g class="van">
+      <!-- boxes on the roof -->
+      <rect x="92" y="34" width="44" height="34" rx="3" fill="var(--box)" stroke="var(--box-dark)" stroke-width="2"/>
+      <line x1="114" y1="34" x2="114" y2="68" stroke="var(--box-dark)" stroke-width="2"/>
+      <rect x="140" y="44" width="36" height="24" rx="3" fill="var(--box)" stroke="var(--box-dark)" stroke-width="2"/>
+      <line x1="158" y1="44" x2="158" y2="68" stroke="var(--box-dark)" stroke-width="2"/>
+      <rect x="114" y="10" width="30" height="24" rx="3" fill="var(--box)" stroke="var(--box-dark)" stroke-width="2" transform="rotate(-8 129 22)"/>
+      <!-- cargo body -->
+      <rect x="70" y="68" width="170" height="86" rx="10" fill="var(--van)"/>
+      <text x="155" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#fff" letter-spacing="1">MOVING!</text>
+      <!-- cab -->
+      <path d="M240 90 h48 q12 0 20 12 l22 30 q6 8 6 18 v4 q0 6 -6 6 h-90 z" fill="var(--van)"/>
+      <path d="M252 98 h34 q6 0 10 6 l16 22 h-60 z" fill="#d9eef9"/>
+      <!-- smiling driver -->
+      <circle cx="270" cy="114" r="9" fill="#f2c9a0"/>
+      <path d="M266 116 q4 4 8 0" stroke="#2b2a28" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <circle cx="267" cy="111" r="1.3" fill="#2b2a28"/>
+      <circle cx="274" cy="111" r="1.3" fill="#2b2a28"/>
+      <!-- headlight -->
+      <rect x="326" y="140" width="10" height="8" rx="2" fill="#ffd66b"/>
+      <!-- wheels -->
+      <g class="wheel"><circle cx="112" cy="158" r="17" fill="#2b2a28"/><circle cx="112" cy="158" r="6" fill="#bbb"/><rect x="110" y="143" width="4" height="8" fill="#bbb"/></g>
+      <g class="wheel"><circle cx="292" cy="158" r="17" fill="#2b2a28"/><circle cx="292" cy="158" r="6" fill="#bbb"/><rect x="290" y="143" width="4" height="8" fill="#bbb"/></g>
+    </g>
+  </svg>
+
+  <p class="domain" id="domain">this address</p>
+  <h1>We've moved!</h1>
+  <p id="message">We've packed up the boxes and we're settling in somewhere new. This page is a quiet placeholder while the new home gets ready.</p>
+  <p>Thank you for stopping by.</p>
+
+  <div class="contact">
+    To get in touch, email us at<br>
+    <a id="email" href="mailto:tech@example.com">tech@example.com</a>
+  </div>
+</main>
+
+<script>
+  // One page serves every domain: it reads the address it was opened on.
+  (function () {
+    var host = (location.hostname || "").replace(/^www\./, "").toLowerCase();
+    // Friendly names and optional custom lines per domain. Edit freely.
+    var names = {
+      "tixxi.com": "Tixxi",
+      "tixxi.co.uk": "Tixxi",
+      "tixxi.net": "Tixxi",
+      "skirrid.com": "Skirrid",
+      "wordsandwisdom.com": "Words and Wisdom",
+      "words.team": "Words and Wisdom",
+      "rhymesof.life": "Rhymes of Life",
+      "yourpotential.today": "Your Potential",
+      "yourpotential.life": "Your Potential",
+      "freemypotential.ai": "Free My Potential",
+      "painwhisper.com": "Pain Whispering",
+      "painwhispering.net": "Pain Whispering",
+      "painlesseft.com": "Painless EFT",
+      "stabilitycalm.com": "Stability Calm",
+      "sendawave.com": "Send a Wave",
+      "alternativefutures.org": "Alternative Futures",
+      "crowandmoon.com": "Crow and Moon",
+      "researchthatworks.com": "Research That Works",
+      "writeinquiry.com": "Write Inquiry",
+      "druidcamp.co.uk": "Druid Camp",
+      "druidcamp.info": "Druid Camp"
+    };
+    var looksLikeDomain = /\./.test(host) && !/localhost|vercel\.app$/.test(host);
+    if (looksLikeDomain) {
+      var email = "tech@" + host;
+      var label = names[host] ? names[host] + " · " + host : host;
+      document.getElementById("domain").textContent = label;
+      var a = document.getElementById("email");
+      a.textContent = email;
+      a.href = "mailto:" + email;
+      document.title = "We've moved · " + host;
+    }
+  })();
+</script>
+</body>
+</html>
